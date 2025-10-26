@@ -1,0 +1,12 @@
+This Directory is for the Mobile Application Code Files, mainly for GIT ID's
+
+
+
+To run app, first on your Android device, install expo go from the app store
+then go to console/terminal on the computer
+navigate to ~/MobileApp/TruckNorris
+make sure node is installed (sudo apt install nodejs npm)
+make sure react is installed (npm install react)
+make sure expo is installed (npm install expo)
+use npx expo start
+a QR code should appear in the console, open ExpoGo and scan the QR code

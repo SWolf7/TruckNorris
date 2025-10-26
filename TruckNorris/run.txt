@@ -1,0 +1,5 @@
+For Web App -- npm run build -- creates /dist for static cloudflare upload
+
+For Mobile App -- npx expo export --platform web == creates /dist for static cloudflare upload
+
+Backends still use runner

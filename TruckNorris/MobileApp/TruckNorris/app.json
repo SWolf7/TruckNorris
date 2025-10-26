@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TruckNorris",
+    "slug": "TruckNorris",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/TruckNorrisLogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/TruckNorrisLogo_Darkmode.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trucknorris.app",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": ["trucknorris"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.trucknorris.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            { "scheme": "trucknorris", "host": "callback" }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "trucknorris"
+  }
+}
